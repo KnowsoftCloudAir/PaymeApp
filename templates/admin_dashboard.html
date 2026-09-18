@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}Site editor{% endblock %}
+{% block content %}
+<div class="page-hero"><div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+  <h1 class="mb-0">Site content</h1>
+  <a href="{{ url_for('admin_logout') }}" class="btn btn-outline-light btn-sm">Sign out</a>
+</div></div>
+<section><div class="container">
+
+  <div class="card-ks p-3 mb-4 d-flex flex-wrap justify-content-between align-items-center gap-2">
+    <div>
+      <strong>Visitors</strong>
+      {% if visit_stats %}
+      · Today: {{ visit_stats.today }} · Unique IPs: {{ visit_stats.unique_ips }} · Log: {{ visit_stats.total_in_log }}
+      {% endif %}
+    </div>
+    <a class="btn btn-ks btn-sm" href="{{ url_for('admin_visitors') }}">Open visitor tracking</a>
+  </div>
+
+<form method="post" action="{{ url_for('admin_save') }}">
+  <div class="card-ks p-4 mb-4">
+    <h5 class="fw-bold">Home & contact</h5>
+    <div class="row g-3">
+      <div class="col-md-6"><label class="form-label">Hero title</label><input name="hero_title" class="form-control" value="{{ c.hero_title }}"></div>
+      <div class="col-12"><label class="form-label">Hero subtitle</label><textarea name="hero_subtitle" class="form-control" rows="2">{{ c.hero_subtitle }}</textarea></div>
+      <div class="col-12">
+        <label class="form-label">Homepage YouTube links (one per line)</label>
+        <textarea name="youtube_links" class="form-control" rows="5" placeholder="https://youtube.com/shorts/...&#10;https://www.youtube.com/watch?v=...">{% if c.youtube_links %}{{ c.youtube_links|join('\n') }}{% else %}{{ c.youtube_id or '' }}{% endif %}</textarea>
+        <div class="form-text">Paste as many links as you want. The homepage plays them in order, switching with a dramatic transition every interval below. Volume is on (browsers may require one click on the video area first).</div>
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Seconds per video</label>
+        <input type="number" name="youtube_interval_sec" class="form-control" min="15" max="120" value="{{ c.youtube_interval_sec or 45 }}">
+        <div class="form-text">15–120 seconds (default 45). Under 1 minute is fine.</div>
+      </div>
+      <div class="col-md-4"><label class="form-label">Address</label><input name="address" class="form-control" value="{{ c.address }}"></div>
+      <div class="col-md-4"><label class="form-label">Email</label><input name="email" class="form-control" value="{{ c.email }}"></div>
+      <div class="col-md-4"><label class="form-label">Phone</label><input name="phone" class="form-control" value="{{ c.phone }}"></div>
+      <div class="col-md-4"><label class="form-label">New admin password (optional)</label><input type="password" name="new_password" class="form-control" placeholder="Leave blank to keep"></div>
+    </div>
+  </div>
+
+  <div class="card-ks p-4 mb-4">
+    <h5 class="fw-bold">Software products (include video link per product)</h5>
+    {% for s in c.software %}
+    <div class="border rounded-3 p-3 mb-3">
+      <div class="row g-2">
+        <input type="hidden" name="sw_id" value="{{ s.id }}">
+        <div class="col-md-4"><label class="form-label small">Name</label><input name="sw_name" class="form-control form-control-sm" value="{{ s.name }}"></div>
+        <div class="col-md-4"><label class="form-label small">Tagline</label><input name="sw_tagline" class="form-control form-control-sm" value="{{ s.tagline }}"></div>
+        <div class="col-md-2"><label class="form-label small">Badge</label><input name="sw_badge" class="form-control form-control-sm" value="{{ s.badge }}"></div>
+        <div class="col-md-2"><label class="form-label small">Version</label><input name="sw_version" class="form-control form-control-sm" value="{{ s.version }}"></div>
+        <div class="col-md-3"><label class="form-label small">Platform</label><input name="sw_platform" class="form-control form-control-sm" value="{{ s.platform }}"></div>
+        <div class="col-md-3"><label class="form-label small">Icon class</label><input name="sw_icon" class="form-control form-control-sm" value="{{ s.icon }}"></div>
+        <div class="col-md-3"><label class="form-label small">Launch URL</label><input name="sw_url" class="form-control form-control-sm" value="{{ s.url }}"></div>
+        <div class="col-md-3"><label class="form-label small">Download URL</label><input name="sw_download" class="form-control form-control-sm" value="{{ s.download }}"></div>
+        <div class="col-12"><label class="form-label small">About this software</label>
+          <textarea name="sw_description" class="form-control form-control-sm" rows="2" placeholder="What the product does…">{{ s.description or '' }}</textarea>
+        </div>
+        <div class="col-12"><label class="form-label small">Product video (YouTube / Shorts / direct URL)</label>
+          <input name="sw_video" class="form-control form-control-sm" value="{{ s.video_url }}" placeholder="https://youtube.com/shorts/...">
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="card-ks p-4 mb-4">
+    <h5 class="fw-bold">Clients</h5>
+    {% for cl in c.clients %}
+    <div class="row g-2 mb-2">
+      <div class="col-md-6"><input name="client_name" class="form-control form-control-sm" value="{{ cl.name }}" placeholder="Client name"></div>
+      <div class="col-md-6"><input name="client_sector" class="form-control form-control-sm" value="{{ cl.sector }}" placeholder="Sector"></div>
+    </div>
+    {% endfor %}
+    {% for _ in range(3) %}
+    <div class="row g-2 mb-2">
+      <div class="col-md-6"><input name="client_name" class="form-control form-control-sm" placeholder="New client name"></div>
+      <div class="col-md-6"><input name="client_sector" class="form-control form-control-sm" placeholder="Sector"></div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <button class="btn btn-ks btn-lg">Save all changes</button>
+</form>
+
+<form method="post" action="{{ url_for('admin_gallery_upload') }}" enctype="multipart/form-data" class="card-ks p-4 mt-4">
+  <h5 class="fw-bold">Add gallery picture</h5>
+  <div class="row g-2 align-items-end">
+    <div class="col-md-5"><label class="form-label">Image</label><input type="file" name="image" class="form-control" accept="image/*" required></div>
+    <div class="col-md-5"><label class="form-label">Caption</label><input type="text" name="caption" class="form-control"></div>
+    <div class="col-md-2"><button class="btn btn-ks w-100">Upload</button></div>
+  </div>
+</form>
+</div></section>
+{% endblock %}

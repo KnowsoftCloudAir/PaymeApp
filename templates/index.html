@@ -1,0 +1,244 @@
+{% extends "base.html" %}
+{% block title %}Knowsoft Consult LTD — with ease{% endblock %}
+{% block content %}
+{% if youtube_ids and youtube_ids|length > 0 %}
+<section class="video-first">
+  <div class="home-video-theatre home-video-full" id="homeVideoTheatre"
+       data-ids="{{ youtube_ids|join(',') }}"
+       data-interval="{{ youtube_interval_sec }}">
+
+    {# Title bar over the same video screen #}
+    <div class="video-titlebar">
+      <div class="video-titlebar-inner">
+        <img src="{{ url_for('static', filename='img/knowsoft_logo.png') }}" alt="" class="video-titlebar-logo" />
+        <div class="video-titlebar-text">
+          <div class="vt-line1">Knowsoft Consult LTD · Lagos, Nigeria</div>
+          <div class="vt-line2">{{ content.hero_title or "Technology & consulting that work with ease" }}</div>
+          <div class="vt-line3">{{ content.hero_subtitle or "We design and deliver software platforms, financial workflows and advisory services for organisations that need clarity, control and results." }}</div>
+        </div>
+        <div class="video-titlebar-actions">
+          <a href="{{ url_for('software') }}" class="btn btn-sm btn-ks">Software</a>
+          <a href="{{ url_for('request_consulting') }}" class="btn btn-sm btn-outline-light">Consulting</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-stage video-stage-full">
+      <iframe id="ytPlayer"
+        title="Knowsoft video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        playsinline
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <div class="video-vignette"></div>
+      <div class="video-progress"><div class="video-progress-bar" id="ytProgress"></div></div>
+      <div class="video-meta">
+        <span id="ytCounter">1 / {{ youtube_ids|length }}</span>
+      </div>
+      <div class="video-flash" id="ytFlash"></div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="hero">
+  <div class="container py-5 text-center">
+    <div class="hero-badge">Knowsoft Consult LTD · Lagos, Nigeria</div>
+    <h1>{{ content.hero_title }}</h1>
+    <p class="lead mx-auto">{{ content.hero_subtitle }}</p>
+  </div>
+</section>
+{% endif %}
+
+<section>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4"><div class="card-ks p-4"><div class="icon-box"><i class="bi bi-cpu"></i></div><h5 class="fw-bold">Software</h5><p class="text-muted small">Business, church, learning and finance platforms.</p><a href="{{ url_for('software') }}">Explore →</a></div></div>
+      <div class="col-md-4"><div class="card-ks p-4"><div class="icon-box"><i class="bi bi-file-earmark-richtext"></i></div><h5 class="fw-bold">Templates</h5><p class="text-muted small">Budget, reporting and PMO templates ready to use.</p><a href="{{ url_for('templates_page') }}">Download →</a></div></div>
+      <div class="col-md-4"><div class="card-ks p-4"><div class="icon-box"><i class="bi bi-people"></i></div><h5 class="fw-bold">Consulting</h5><p class="text-muted small">Finance, audit, SOPs, IFRS, ERP and capacity building.</p><a href="{{ url_for('services_index') }}">Services →</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="container">
+    <h2 class="section-title">Featured software</h2>
+    <div class="row g-4">
+      {% for s in software %}
+      <div class="col-md-4">
+        <div class="card-ks p-4">
+          <div class="d-flex justify-content-between"><div class="icon-box"><i class="bi {{ s.icon }}"></i></div>{% if s.badge %}<span class="badge-ks">{{ s.badge }}</span>{% endif %}</div>
+          <h5 class="fw-bold">{{ s.name }}</h5>
+          <p class="text-muted small">{{ s.tagline }}</p>
+          {% if s.description %}<p class="small text-secondary">{{ s.description[:160] }}{% if s.description|length > 160 %}…{% endif %}</p>{% endif %}
+          <div class="d-flex flex-wrap gap-2">
+            {% if s.url %}<a class="btn btn-ks btn-sm" href="{{ s.url }}" target="_blank" rel="noopener">Open</a>{% endif %}
+            {% if s.video_url %}<a class="btn btn-ks-outline btn-sm" href="{{ s.video_url }}" target="_blank" rel="noopener"><i class="bi bi-play-fill"></i> Video</a>{% endif %}
+            {% if s.download %}<a class="btn btn-ks-outline btn-sm" href="{{ s.download }}" target="_blank" rel="noopener"><i class="bi bi-download"></i> APK</a>{% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta-band">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h2 class="fw-bold mb-2">Ready to engage Knowsoft Consult LTD?</h2>
+          <p class="mb-0 opacity-90">{{ content.email }} · {{ content.phone }} · {{ content.address }}</p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="{{ url_for('request_consulting') }}" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold">Request consulting</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+(function () {
+  const root = document.getElementById('homeVideoTheatre');
+  if (!root) return;
+
+  const ids = (root.dataset.ids || '').split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+  if (!ids.length) return;
+
+  let intervalSec = parseInt(root.dataset.interval || '45', 10);
+  if (isNaN(intervalSec) || intervalSec < 15) intervalSec = 45;
+  if (intervalSec > 120) intervalSec = 120;
+
+  const progress = document.getElementById('ytProgress');
+  const counter = document.getElementById('ytCounter');
+  const flash = document.getElementById('ytFlash');
+  const iframeEl = document.getElementById('ytPlayer');
+
+  let idx = 0;
+  let timer = null;
+  let ytPlayer = null;
+  let apiReady = false;
+
+  function startProgress() {
+    if (!progress) return;
+    progress.style.transition = 'none';
+    progress.style.width = '0%';
+    void progress.offsetWidth;
+    progress.style.transition = 'width ' + intervalSec + 's linear';
+    progress.style.width = '100%';
+  }
+
+  function dramaticFlash() {
+    if (!flash) return;
+    flash.classList.remove('go');
+    void flash.offsetWidth;
+    flash.classList.add('go');
+  }
+
+  function updateCounter() {
+    if (counter) counter.textContent = ((idx % ids.length) + 1) + ' / ' + ids.length;
+  }
+
+  function loadViaIframe(id, tryUnmuted) {
+    // Prefer unmuted; if browser blocks, fall back to muted autoplay
+    var mute = tryUnmuted ? 0 : 1;
+    iframeEl.src = 'https://www.youtube.com/embed/' + encodeURIComponent(id)
+      + '?autoplay=1&mute=' + mute
+      + '&playsinline=1&rel=0&modestbranding=1&controls=1&enablejsapi=1'
+      + '&origin=' + encodeURIComponent(window.location.origin);
+  }
+
+  function playCurrent(withFlash) {
+    var id = ids[idx % ids.length];
+    if (withFlash) dramaticFlash();
+    updateCounter();
+    if (ytPlayer && apiReady && ytPlayer.loadVideoById) {
+      try {
+        ytPlayer.loadVideoById({ videoId: id, startSeconds: 0 });
+        ytPlayer.unMute();
+        ytPlayer.setVolume(100);
+        ytPlayer.playVideo();
+      } catch (e) {
+        loadViaIframe(id, true);
+      }
+    } else {
+      loadViaIframe(id, true);
+      // Fallback: if unmuted autoplay blocked, retry muted after short delay so picture still plays
+      setTimeout(function () {
+        // If still no movement, force muted autoplay
+        try {
+          if (iframeEl && iframeEl.src && iframeEl.src.indexOf('mute=0') !== -1) {
+            // keep unmuted attempt; secondary muted only if needed via API
+          }
+        } catch (e) {}
+      }, 800);
+    }
+    startProgress();
+  }
+
+  function next() {
+    idx = (idx + 1) % ids.length;
+    playCurrent(true);
+  }
+
+  function armTimer() {
+    if (timer) clearInterval(timer);
+    timer = setInterval(next, intervalSec * 1000);
+  }
+
+  // YouTube IFrame API — better chance at play + volume
+  window.onYouTubeIframeAPIReady = function () {
+    apiReady = true;
+    ytPlayer = new YT.Player('ytPlayer', {
+      videoId: ids[0],
+      playerVars: {
+        autoplay: 1,
+        mute: 0,
+        playsinline: 1,
+        rel: 0,
+        modestbranding: 1,
+        controls: 1,
+        origin: window.location.origin
+      },
+      events: {
+        onReady: function (e) {
+          try {
+            e.target.unMute();
+            e.target.setVolume(100);
+            e.target.playVideo();
+          } catch (err) {
+            // Browser blocked sound — mute and play so video still runs
+            try {
+              e.target.mute();
+              e.target.playVideo();
+            } catch (e2) {}
+          }
+          armTimer();
+          startProgress();
+          updateCounter();
+        },
+        onStateChange: function (e) {
+          // if ended early, still wait for interval
+        },
+        onError: function () {
+          loadViaIframe(ids[idx % ids.length], false);
+        }
+      }
+    });
+  };
+
+  // If API script already loaded
+  if (window.YT && window.YT.Player) {
+    window.onYouTubeIframeAPIReady();
+  } else {
+    // Start iframe immediately while API loads (unmuted attempt)
+    playCurrent(false);
+    armTimer();
+  }
+})();
+</script>
+{% endblock %}

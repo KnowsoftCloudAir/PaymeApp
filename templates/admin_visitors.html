@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Visitors — Admin{% endblock %}
+{% block content %}
+<div class="page-hero"><div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+  <h1 class="mb-0">Visitor tracking</h1>
+  <div class="d-flex gap-2">
+    <a href="{{ url_for('admin_dashboard') }}" class="btn btn-outline-light btn-sm">Site content</a>
+    <a href="{{ url_for('admin_logout') }}" class="btn btn-outline-light btn-sm">Sign out</a>
+  </div>
+</div></div>
+<section><div class="container">
+  <div class="row g-3 mb-4">
+    <div class="col-md-4"><div class="card-ks p-3 text-center">
+      <div class="text-muted small fw-bold">PAGE VIEWS (log)</div>
+      <div style="font-size:2rem;font-weight:800">{{ stats.total_in_log }}</div>
+    </div></div>
+    <div class="col-md-4"><div class="card-ks p-3 text-center">
+      <div class="text-muted small fw-bold">UNIQUE IPs</div>
+      <div style="font-size:2rem;font-weight:800">{{ stats.unique_ips }}</div>
+    </div></div>
+    <div class="col-md-4"><div class="card-ks p-3 text-center">
+      <div class="text-muted small fw-bold">TODAY (UTC)</div>
+      <div style="font-size:2rem;font-weight:800">{{ stats.today }}</div>
+    </div></div>
+  </div>
+
+  <div class="card-ks p-4 mb-4">
+    <h5 class="fw-bold">Top pages</h5>
+    <table class="table table-sm">
+      <thead><tr><th>Path</th><th>Views</th></tr></thead>
+      <tbody>
+      {% for path, n in stats.top_paths %}
+        <tr><td><code>{{ path }}</code></td><td>{{ n }}</td></tr>
+      {% else %}
+        <tr><td colspan="2" class="text-muted">No visits yet</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card-ks p-4">
+    <h5 class="fw-bold">Recent visits</h5>
+    <p class="small text-muted">Stored on the server in <code>instance/visitors.jsonl</code> (survives deploys if the disk persists; on free Render it may reset when the instance sleeps).</p>
+    <div class="table-responsive">
+      <table class="table table-sm align-middle">
+        <thead>
+          <tr>
+            <th>When (UTC)</th>
+            <th>Path</th>
+            <th>IP</th>
+            <th>Referrer</th>
+            <th>Browser</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for v in visits %}
+          <tr>
+            <td class="small">{{ v.ts }}</td>
+            <td><code>{{ v.path }}</code></td>
+            <td class="small">{{ v.ip }}</td>
+            <td class="small text-truncate" style="max-width:160px">{{ v.ref or '—' }}</td>
+            <td class="small text-truncate" style="max-width:200px">{{ v.ua or '—' }}</td>
+          </tr>
+        {% else %}
+          <tr><td colspan="5" class="text-muted">No visits logged yet. Open the public homepage once, then refresh this page.</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div></section>
+{% endblock %}
