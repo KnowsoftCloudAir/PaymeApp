@@ -1,0 +1,72 @@
+[
+  {
+    "id": 7,
+    "name": "Bantain IC",
+    "method_code": "Impllant",
+    "unit": "15",
+    "unit_cost": "12000.00",
+    "description": "For use",
+    "is_active": true,
+    "created_at": "2026-10-11T12:01:32.282019"
+  },
+  {
+    "id": 4,
+    "name": "Combined Oral Contraceptive",
+    "method_code": "Pill",
+    "unit": "cycle",
+    "unit_cost": "0.85",
+    "description": null,
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.242523"
+  },
+  {
+    "id": 1,
+    "name": "Copper IUD",
+    "method_code": "IUD",
+    "unit": "piece",
+    "unit_cost": "8.50",
+    "description": null,
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.242517"
+  },
+  {
+    "id": 6,
+    "name": "Emergency Contraceptive",
+    "method_code": "EC",
+    "unit": "pack",
+    "unit_cost": "1.50",
+    "description": null,
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.242525"
+  },
+  {
+    "id": 3,
+    "name": "Injectable (DMPA)",
+    "method_code": "Injectable",
+    "unit": "vial",
+    "unit_cost": "2.20",
+    "description": null,
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.242522"
+  },
+  {
+    "id": 2,
+    "name": "Levonorgestrel Implant",
+    "method_code": "Implant",
+    "unit": "set",
+    "unit_cost": "18.00",
+    "description": null,
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.242521"
+  },
+  {
+    "id": 5,
+    "name": "Male Condom",
+    "method_code": "Condom",
+    "unit": "piece",
+    "unit_cost": "0.12",
+    "description": null,
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.242524"
+  }
+]

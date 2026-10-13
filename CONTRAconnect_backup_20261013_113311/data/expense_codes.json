@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "code": "EXP-STAFF-01",
+    "category": "Staff",
+    "description": "Field staff wage subsidies and stipends",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "code": "EXP-STAFF-02",
+    "category": "Staff",
+    "description": "Consultant professional fees",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "code": "EXP-TRAIN-01",
+    "category": "Training",
+    "description": "Induction and clinical refresher training",
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "code": "EXP-TRAIN-02",
+    "category": "Training",
+    "description": "Quality of care review meetings",
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "code": "EXP-LOG-01",
+    "category": "Logistics",
+    "description": "Commodity distribution — vehicle hire and fuel",
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "code": "EXP-LOG-02",
+    "category": "Logistics",
+    "description": "Central storage rental and cold-chain utilities",
+    "is_active": true
+  },
+  {
+    "id": 7,
+    "code": "EXP-SBC-01",
+    "category": "Demand generation",
+    "description": "Community dialogues and stakeholder advocacy",
+    "is_active": true
+  },
+  {
+    "id": 8,
+    "code": "EXP-SBC-02",
+    "category": "Demand generation",
+    "description": "IEC materials, radio and digital campaigns",
+    "is_active": true
+  },
+  {
+    "id": 9,
+    "code": "EXP-COMM-01",
+    "category": "Commodities",
+    "description": "Family planning commodities (LARC and short-acting)",
+    "is_active": true
+  },
+  {
+    "id": 10,
+    "code": "EXP-COMM-02",
+    "category": "Commodities",
+    "description": "Medical consumables and IPC supplies",
+    "is_active": true
+  },
+  {
+    "id": 11,
+    "code": "EXP-EQP-01",
+    "category": "Equipment",
+    "description": "Mobile kiosk fabrication and clinical equipment",
+    "is_active": true
+  },
+  {
+    "id": 12,
+    "code": "EXP-EQP-02",
+    "category": "Equipment",
+    "description": "Field IT devices and maintenance",
+    "is_active": true
+  },
+  {
+    "id": 13,
+    "code": "EXP-OPS-01",
+    "category": "Office operations",
+    "description": "Utilities, internet, stationery and security",
+    "is_active": true
+  },
+  {
+    "id": 14,
+    "code": "EXP-PLT-01",
+    "category": "Platform",
+    "description": "Digital platform hosting, security and support",
+    "is_active": true
+  },
+  {
+    "id": 15,
+    "code": "EXP-VND-01",
+    "category": "Vendor",
+    "description": "Vendor administrative service charge",
+    "is_active": true
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "expense_code_id": 1,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "24528.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.712192"
+  },
+  {
+    "id": 2,
+    "expense_code_id": 2,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "28000.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.713770"
+  },
+  {
+    "id": 3,
+    "expense_code_id": 3,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "4308.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.714883"
+  },
+  {
+    "id": 4,
+    "expense_code_id": 4,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "3055.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.715980"
+  },
+  {
+    "id": 5,
+    "expense_code_id": 5,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "3000.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.716967"
+  },
+  {
+    "id": 6,
+    "expense_code_id": 6,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "10000.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.717952"
+  },
+  {
+    "id": 7,
+    "expense_code_id": 7,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "9700.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.719019"
+  },
+  {
+    "id": 8,
+    "expense_code_id": 8,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "10004.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.720278"
+  },
+  {
+    "id": 9,
+    "expense_code_id": 9,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "80000.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.721441"
+  },
+  {
+    "id": 10,
+    "expense_code_id": 10,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "25000.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.722562"
+  },
+  {
+    "id": 11,
+    "expense_code_id": 11,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "24500.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.724210"
+  },
+  {
+    "id": 12,
+    "expense_code_id": 12,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "9550.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.725242"
+  },
+  {
+    "id": 13,
+    "expense_code_id": 13,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "10000.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.726215"
+  },
+  {
+    "id": 14,
+    "expense_code_id": 14,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "30000.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.727194"
+  },
+  {
+    "id": 15,
+    "expense_code_id": 15,
+    "fiscal_year": "2026",
+    "period_label": "Pilot",
+    "budget_amount": "8000.00",
+    "variance_narration": "Sample narration — replace with finance analysis.",
+    "updated_by": null,
+    "updated_at": "2026-10-10T14:04:19.728593"
+  }
+]

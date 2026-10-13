@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "code": "PRJ-FP",
+    "name": "Family planning commodities",
+    "description": "Lot 1 commodities and related delivery",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "code": "PRJ-OPS",
+    "name": "Programme operations",
+    "description": "Central operating costs",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "code": "PRJ-OUT",
+    "name": "Outreach and training",
+    "description": "Field outreach and workshops",
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "code": "PRUNDP",
+    "name": "Benincity Challenge",
+    "description": "Heath care for women ",
+    "is_active": true
+  }
+]

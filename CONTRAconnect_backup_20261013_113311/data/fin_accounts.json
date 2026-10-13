@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "code": "1000",
+    "name": "Cash at bank",
+    "account_type": "Cash",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "code": "1010",
+    "name": "Petty cash",
+    "account_type": "Cash",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "code": "1100",
+    "name": "Accounts receivable",
+    "account_type": "Receivable",
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "code": "1200",
+    "name": "Inventory",
+    "account_type": "Asset",
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "code": "1500",
+    "name": "Fixed assets",
+    "account_type": "Asset",
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "code": "2000",
+    "name": "Accounts payable",
+    "account_type": "Payable",
+    "is_active": true
+  },
+  {
+    "id": 7,
+    "code": "2100",
+    "name": "Accrued expenses",
+    "account_type": "Liability",
+    "is_active": true
+  },
+  {
+    "id": 8,
+    "code": "3000",
+    "name": "Fund balance",
+    "account_type": "Equity",
+    "is_active": true
+  },
+  {
+    "id": 9,
+    "code": "3100",
+    "name": "Accumulated surplus",
+    "account_type": "Equity",
+    "is_active": true
+  },
+  {
+    "id": 10,
+    "code": "4000",
+    "name": "Grant and other income",
+    "account_type": "Income",
+    "is_active": true
+  },
+  {
+    "id": 11,
+    "code": "5000",
+    "name": "Commodity expense",
+    "account_type": "Expense",
+    "is_active": true
+  },
+  {
+    "id": 12,
+    "code": "5100",
+    "name": "Logistics expense",
+    "account_type": "Expense",
+    "is_active": true
+  },
+  {
+    "id": 13,
+    "code": "5200",
+    "name": "Personnel expense",
+    "account_type": "Expense",
+    "is_active": true
+  },
+  {
+    "id": 14,
+    "code": "5300",
+    "name": "Training expense",
+    "account_type": "Expense",
+    "is_active": true
+  },
+  {
+    "id": 15,
+    "code": "5400",
+    "name": "Operating expense",
+    "account_type": "Expense",
+    "is_active": true
+  },
+  {
+    "id": 16,
+    "code": "1300",
+    "name": "Commodity stock",
+    "account_type": "Current asset",
+    "is_active": true
+  },
+  {
+    "id": 17,
+    "code": "BNK001",
+    "name": "Fidelity Bank",
+    "account_type": "Cash",
+    "is_active": true
+  },
+  {
+    "id": 18,
+    "code": "INCUNDP",
+    "name": "INFLOW FROM GRANT",
+    "account_type": "Income",
+    "is_active": true
+  },
+  {
+    "id": 19,
+    "code": "EXP001",
+    "name": "PROJECT EXPENSES",
+    "account_type": "Expenses",
+    "is_active": true
+  },
+  {
+    "id": 20,
+    "code": "AP001",
+    "name": "Account Payable",
+    "account_type": "Account payables",
+    "is_active": true
+  },
+  {
+    "id": 21,
+    "code": "AR001",
+    "name": "Account Receivable",
+    "account_type": "Account Receivable",
+    "is_active": true
+  },
+  {
+    "id": 22,
+    "code": "NA001",
+    "name": "NON CURRENT ASSETS",
+    "account_type": "Non-current asset",
+    "is_active": true
+  }
+]

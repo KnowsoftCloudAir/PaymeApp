@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "member_id": 5,
+    "submission_id": 1,
+    "technical": "70.00",
+    "financial": "80.00",
+    "comment": "OKay",
+    "submitted_at": "2026-10-12T09:09:29.398397"
+  },
+  {
+    "id": 2,
+    "member_id": 5,
+    "submission_id": 2,
+    "technical": "65.00",
+    "financial": "90.00",
+    "comment": "Okay",
+    "submitted_at": "2026-10-12T09:09:29.401218"
+  },
+  {
+    "id": 3,
+    "member_id": 6,
+    "submission_id": 1,
+    "technical": "80.00",
+    "financial": "70.00",
+    "comment": "fine",
+    "submitted_at": "2026-10-12T09:10:07.452403"
+  },
+  {
+    "id": 4,
+    "member_id": 6,
+    "submission_id": 2,
+    "technical": "90.00",
+    "financial": "85.00",
+    "comment": "better",
+    "submitted_at": "2026-10-12T09:10:07.454207"
+  },
+  {
+    "id": 5,
+    "member_id": 7,
+    "submission_id": 3,
+    "technical": "65.00",
+    "financial": "70.00",
+    "comment": "Price high with same quality of goods",
+    "submitted_at": "2026-10-12T20:05:50.428867"
+  },
+  {
+    "id": 6,
+    "member_id": 7,
+    "submission_id": 4,
+    "technical": "70.00",
+    "financial": "85.00",
+    "comment": "Okay",
+    "submitted_at": "2026-10-12T20:05:50.432652"
+  },
+  {
+    "id": 7,
+    "member_id": 8,
+    "submission_id": 3,
+    "technical": "80.00",
+    "financial": "75.00",
+    "comment": "Okay but cost is higher",
+    "submitted_at": "2026-10-12T20:07:10.936716"
+  },
+  {
+    "id": 8,
+    "member_id": 8,
+    "submission_id": 4,
+    "technical": "75.00",
+    "financial": "90.00",
+    "comment": "Okay",
+    "submitted_at": "2026-10-12T20:07:10.939309"
+  },
+  {
+    "id": 9,
+    "member_id": 10,
+    "submission_id": 5,
+    "technical": "65.00",
+    "financial": "90.00",
+    "comment": "Okay",
+    "submitted_at": "2026-10-12T20:34:39.916047"
+  },
+  {
+    "id": 10,
+    "member_id": 10,
+    "submission_id": 6,
+    "technical": "75.00",
+    "financial": "80.00",
+    "comment": "Higher cost",
+    "submitted_at": "2026-10-12T20:34:39.918089"
+  },
+  {
+    "id": 11,
+    "member_id": 9,
+    "submission_id": 5,
+    "technical": "75.00",
+    "financial": "85.00",
+    "comment": "Okay",
+    "submitted_at": "2026-10-12T20:35:26.252271"
+  },
+  {
+    "id": 12,
+    "member_id": 9,
+    "submission_id": 6,
+    "technical": "65.00",
+    "financial": "80.00",
+    "comment": "Higher cost",
+    "submitted_at": "2026-10-12T20:35:26.253830"
+  }
+]

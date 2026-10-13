@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "submission_id": 1,
+    "item_id": 12,
+    "description": "Bantain IC",
+    "quantity": "1.00",
+    "selected": true,
+    "amount": "300000.00"
+  },
+  {
+    "id": 2,
+    "submission_id": 1,
+    "item_id": 13,
+    "description": "Combined Oral Contraceptive",
+    "quantity": "20.00",
+    "selected": true,
+    "amount": "2500000.00"
+  },
+  {
+    "id": 3,
+    "submission_id": 2,
+    "item_id": 12,
+    "description": "Bantain IC",
+    "quantity": "1.00",
+    "selected": true,
+    "amount": "400000.00"
+  },
+  {
+    "id": 4,
+    "submission_id": 2,
+    "item_id": 13,
+    "description": "Combined Oral Contraceptive",
+    "quantity": "20.00",
+    "selected": true,
+    "amount": "3500000.00"
+  },
+  {
+    "id": 5,
+    "submission_id": 3,
+    "item_id": 21,
+    "description": "Bantain IC",
+    "quantity": "1.00",
+    "selected": true,
+    "amount": "200000.00"
+  },
+  {
+    "id": 6,
+    "submission_id": 3,
+    "item_id": 22,
+    "description": "Combined Oral Contraceptive",
+    "quantity": "30.00",
+    "selected": true,
+    "amount": "1500000.00"
+  },
+  {
+    "id": 7,
+    "submission_id": 4,
+    "item_id": 21,
+    "description": "Bantain IC",
+    "quantity": "1.00",
+    "selected": true,
+    "amount": "200000.00"
+  },
+  {
+    "id": 8,
+    "submission_id": 4,
+    "item_id": 22,
+    "description": "Combined Oral Contraceptive",
+    "quantity": "30.00",
+    "selected": true,
+    "amount": "1400000.00"
+  },
+  {
+    "id": 9,
+    "submission_id": 5,
+    "item_id": 23,
+    "description": "Emergency Contraceptive",
+    "quantity": "30.00",
+    "selected": true,
+    "amount": "1600000.00"
+  },
+  {
+    "id": 10,
+    "submission_id": 5,
+    "item_id": 24,
+    "description": "Injectable (DMPA)",
+    "quantity": "50.00",
+    "selected": true,
+    "amount": "1400000.00"
+  },
+  {
+    "id": 11,
+    "submission_id": 6,
+    "item_id": 23,
+    "description": "Emergency Contraceptive",
+    "quantity": "30.00",
+    "selected": true,
+    "amount": "1700000.00"
+  },
+  {
+    "id": 12,
+    "submission_id": 6,
+    "item_id": 24,
+    "description": "Injectable (DMPA)",
+    "quantity": "50.00",
+    "selected": true,
+    "amount": "1500000.00"
+  }
+]

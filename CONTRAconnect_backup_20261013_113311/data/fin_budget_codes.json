@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "code": "BUD-FP-COMM",
+    "description": "FP commodity budget",
+    "project_id": 1,
+    "expense_code_id": 1,
+    "amount": "25000000.00",
+    "fiscal_year": "2026",
+    "start_date": null,
+    "end_date": null,
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "code": "BUD-FP-LOG",
+    "description": "FP logistics budget",
+    "project_id": 1,
+    "expense_code_id": 2,
+    "amount": "4000000.00",
+    "fiscal_year": "2026",
+    "start_date": null,
+    "end_date": null,
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "code": "BUD-OPS",
+    "description": "Operations budget",
+    "project_id": 2,
+    "expense_code_id": 3,
+    "amount": "6000000.00",
+    "fiscal_year": "2026",
+    "start_date": null,
+    "end_date": null,
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "code": "BUD-OUT-TRN",
+    "description": "Training budget",
+    "project_id": 3,
+    "expense_code_id": 4,
+    "amount": "2500000.00",
+    "fiscal_year": "2026",
+    "start_date": null,
+    "end_date": null,
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "code": "BUD-OUT-PAY",
+    "description": "Allowance budget",
+    "project_id": 3,
+    "expense_code_id": 5,
+    "amount": "1800000.00",
+    "fiscal_year": "2026",
+    "start_date": null,
+    "end_date": null,
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "code": "UNDPB1",
+    "description": "Commodity Suppy",
+    "project_id": 4,
+    "expense_code_id": 6,
+    "amount": "12000000.00",
+    "fiscal_year": "2026",
+    "start_date": null,
+    "end_date": null,
+    "is_active": true
+  }
+]

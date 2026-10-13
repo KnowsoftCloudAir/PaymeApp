@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "rfq_id": 1,
+    "line_no": 1,
+    "product_id": 7,
+    "description": "Bantain IC",
+    "quantity": "5.00",
+    "unit": "15",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 2,
+    "rfq_id": 1,
+    "line_no": 2,
+    "product_id": 4,
+    "description": "Combined Oral Contraceptive",
+    "quantity": "6.00",
+    "unit": "cycle",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 3,
+    "rfq_id": 1,
+    "line_no": 3,
+    "product_id": 1,
+    "description": "Copper IUD",
+    "quantity": "9.00",
+    "unit": "piece",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 4,
+    "rfq_id": 1,
+    "line_no": 4,
+    "product_id": 6,
+    "description": "Emergency Contraceptive",
+    "quantity": "12.00",
+    "unit": "pack",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 5,
+    "rfq_id": 1,
+    "line_no": 5,
+    "product_id": 3,
+    "description": "Injectable (DMPA)",
+    "quantity": "8.00",
+    "unit": "vial",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 6,
+    "rfq_id": 1,
+    "line_no": 6,
+    "product_id": 2,
+    "description": "Levonorgestrel Implant",
+    "quantity": "4.00",
+    "unit": "set",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 7,
+    "rfq_id": 1,
+    "line_no": 7,
+    "product_id": 5,
+    "description": "Male Condom",
+    "quantity": "5.00",
+    "unit": "piece",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 8,
+    "rfq_id": 2,
+    "line_no": 1,
+    "product_id": 7,
+    "description": "Bantain IC",
+    "quantity": "1.00",
+    "unit": "unit",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 9,
+    "rfq_id": 2,
+    "line_no": 2,
+    "product_id": 4,
+    "description": "Combined Oral Contraceptive",
+    "quantity": "2.00",
+    "unit": "unit",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 10,
+    "rfq_id": 2,
+    "line_no": 3,
+    "product_id": 6,
+    "description": "Emergency Contraceptive",
+    "quantity": "5.00",
+    "unit": "unit",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 11,
+    "rfq_id": 2,
+    "line_no": 4,
+    "product_id": 2,
+    "description": "Levonorgestrel Implant",
+    "quantity": "7.00",
+    "unit": "unit",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 12,
+    "rfq_id": 3,
+    "line_no": 1,
+    "product_id": 7,
+    "description": "Bantain IC",
+    "quantity": "1.00",
+    "unit": "unit",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 13,
+    "rfq_id": 3,
+    "line_no": 2,
+    "product_id": 4,
+    "description": "Combined Oral Contraceptive",
+    "quantity": "20.00",
+    "unit": "unit",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 14,
+    "rfq_id": 4,
+    "line_no": 1,
+    "product_id": 7,
+    "description": "Bantain IC",
+    "quantity": "1.00",
+    "unit": "15",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 15,
+    "rfq_id": 4,
+    "line_no": 2,
+    "product_id": 4,
+    "description": "Combined Oral Contraceptive",
+    "quantity": "20.00",
+    "unit": "cycle",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 16,
+    "rfq_id": 4,
+    "line_no": 3,
+    "product_id": 1,
+    "description": "Copper IUD",
+    "quantity": "30.00",
+    "unit": "piece",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 17,
+    "rfq_id": 4,
+    "line_no": 4,
+    "product_id": 6,
+    "description": "Emergency Contraceptive",
+    "quantity": "19.00",
+    "unit": "pack",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 18,
+    "rfq_id": 4,
+    "line_no": 5,
+    "product_id": 3,
+    "description": "Injectable (DMPA)",
+    "quantity": "25.00",
+    "unit": "vial",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 19,
+    "rfq_id": 4,
+    "line_no": 6,
+    "product_id": 2,
+    "description": "Levonorgestrel Implant",
+    "quantity": "18.00",
+    "unit": "set",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 20,
+    "rfq_id": 4,
+    "line_no": 7,
+    "product_id": 5,
+    "description": "Male Condom",
+    "quantity": "30.00",
+    "unit": "piece",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 21,
+    "rfq_id": 5,
+    "line_no": 1,
+    "product_id": 7,
+    "description": "Bantain IC",
+    "quantity": "1.00",
+    "unit": "15",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 22,
+    "rfq_id": 5,
+    "line_no": 2,
+    "product_id": 4,
+    "description": "Combined Oral Contraceptive",
+    "quantity": "30.00",
+    "unit": "cycle",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 23,
+    "rfq_id": 6,
+    "line_no": 1,
+    "product_id": 6,
+    "description": "Emergency Contraceptive",
+    "quantity": "30.00",
+    "unit": "unit",
+    "unit_cost": "0.00"
+  },
+  {
+    "id": 24,
+    "rfq_id": 6,
+    "line_no": 2,
+    "product_id": 3,
+    "description": "Injectable (DMPA)",
+    "quantity": "50.00",
+    "unit": "vial",
+    "unit_cost": "2.20"
+  }
+]

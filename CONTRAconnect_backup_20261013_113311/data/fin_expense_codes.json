@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "code": "EXP-COMM",
+    "description": "Commodity purchases",
+    "project_id": 1,
+    "account_id": 11,
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "code": "EXP-LOG",
+    "description": "Inbound logistics",
+    "project_id": 1,
+    "account_id": 12,
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "code": "EXP-OPS",
+    "description": "Office and utilities",
+    "project_id": 2,
+    "account_id": 15,
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "code": "EXP-TRN",
+    "description": "Training workshops",
+    "project_id": 3,
+    "account_id": 14,
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "code": "EXP-PAY",
+    "description": "Field allowances",
+    "project_id": 3,
+    "account_id": 13,
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "code": "UNDP1",
+    "description": "Commodity Suppy",
+    "project_id": 4,
+    "account_id": 19,
+    "is_active": true
+  }
+]

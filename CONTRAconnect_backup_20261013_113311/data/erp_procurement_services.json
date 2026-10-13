@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "code": "PROC-FP",
+    "name": "Family Planning Commodities Lot 1",
+    "description": "Family Planning Commodities Lot 1",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "code": "PROC-MEDC",
+    "name": "Medical Consumables Lot 2",
+    "description": "Medical Consumables Lot 2",
+    "is_active": true
+  }
+]

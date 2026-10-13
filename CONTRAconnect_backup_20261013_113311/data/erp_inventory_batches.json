@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "product_id": null,
+    "product_name": "Field tablets for kiosk staff",
+    "batch_no": "B-GRN-0002",
+    "expiry_date": "2028-04-03",
+    "qty_received": "1.00",
+    "qty_remaining": "1.00",
+    "unit_cost": "2580000.0000",
+    "grn_id": 2,
+    "received_at": "2026-10-11T08:48:19.128445",
+    "is_demo": false
+  },
+  {
+    "id": 2,
+    "product_id": null,
+    "product_name": "LTA Lot 1: Family Planning Commodities (CONTRAconnect Pilot)",
+    "batch_no": "B-GRN-0003-0",
+    "expiry_date": "2028-04-04",
+    "qty_received": "1.00",
+    "qty_remaining": "1.00",
+    "unit_cost": "19887500.0000",
+    "grn_id": 3,
+    "received_at": "2026-10-12T06:25:35.051229",
+    "is_demo": false
+  },
+  {
+    "id": 3,
+    "product_id": null,
+    "product_name": "Field tablets for kiosk staff",
+    "batch_no": "B-GRN-0004-0",
+    "expiry_date": "2028-04-04",
+    "qty_received": "1.00",
+    "qty_remaining": "1.00",
+    "unit_cost": "2580000.0000",
+    "grn_id": 4,
+    "received_at": "2026-10-12T12:10:07.406748",
+    "is_demo": false
+  },
+  {
+    "id": 4,
+    "product_id": null,
+    "product_name": "LTA Lot 1: Family Planning Commodities (CONTRAconnect Pilot)",
+    "batch_no": "B-GRN-0005-0",
+    "expiry_date": "2028-04-05",
+    "qty_received": "1.00",
+    "qty_remaining": "1.00",
+    "unit_cost": "19887500.0000",
+    "grn_id": 5,
+    "received_at": "2026-10-13T11:19:05.491323",
+    "is_demo": false
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "rfq_id": 3,
+    "submission_id": 2,
+    "status": "accepted",
+    "award_token": "Re9CRO8cwA_YaGRgy8Vx_Srt",
+    "pm_note": "Approved",
+    "progress": 60,
+    "created_at": "2026-10-12T09:10:59.009644",
+    "accepted_at": "2026-10-12T09:11:44.611739"
+  },
+  {
+    "id": 2,
+    "rfq_id": 5,
+    "submission_id": 4,
+    "status": "accepted",
+    "award_token": "YFXjTt3CPxrfUUZvrUpCEBIK",
+    "pm_note": "Approved",
+    "progress": 60,
+    "created_at": "2026-10-12T20:07:32.597785",
+    "accepted_at": "2026-10-12T20:08:16.476777"
+  },
+  {
+    "id": 3,
+    "rfq_id": 6,
+    "submission_id": 5,
+    "status": "accepted",
+    "award_token": "k9J5iXt4tbKZLjb25fC0dx3d",
+    "pm_note": "approved",
+    "progress": 60,
+    "created_at": "2026-10-12T20:35:44.016209",
+    "accepted_at": "2026-10-12T20:36:14.836617"
+  },
+  {
+    "id": 4,
+    "rfq_id": 6,
+    "submission_id": 5,
+    "status": "accepted",
+    "award_token": "65AdiwQljafrtO3-AB9fPZbZ",
+    "pm_note": "Approved",
+    "progress": 60,
+    "created_at": "2026-10-13T11:08:52.415044",
+    "accepted_at": "2026-10-13T11:09:32.248093"
+  }
+]

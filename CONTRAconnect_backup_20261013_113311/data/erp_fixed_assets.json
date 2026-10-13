@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "asset_code": "AST-KIOSK-01",
+    "name": "Mobile Service Kiosk Unit 1",
+    "category": "Infrastructure",
+    "purchase_date": "2026-09-10",
+    "purchase_cost": "4500000.00",
+    "nbv": "4500000.00",
+    "location": "Central Market",
+    "status": "active",
+    "is_demo": true,
+    "created_at": "2026-10-10T14:04:19.688547"
+  }
+]

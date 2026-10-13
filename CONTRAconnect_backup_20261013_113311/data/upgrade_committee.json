@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "rfq_id": 1,
+    "user_id": 6,
+    "member_name": "Demand Generation Consultant",
+    "role_title": "Member",
+    "token": "hmFbbEo61cn5Coce13vryIow",
+    "committed_at": "2026-10-12T07:47:54.981369"
+  },
+  {
+    "id": 2,
+    "rfq_id": 1,
+    "user_id": 11,
+    "member_name": "Esemi Sunday",
+    "role_title": "Member",
+    "token": "A2_dUubKCzZY__2jvvmWmWAd",
+    "committed_at": "2026-10-12T07:47:54.984052"
+  },
+  {
+    "id": 3,
+    "rfq_id": 2,
+    "user_id": 11,
+    "member_name": "Esemi Sunday",
+    "role_title": "Member",
+    "token": "JXt2ee439_5hIWVLFEbiYtcW",
+    "committed_at": "2026-10-12T08:26:50.268447"
+  },
+  {
+    "id": 4,
+    "rfq_id": 2,
+    "user_id": 2,
+    "member_name": "Project Manager",
+    "role_title": "Member",
+    "token": "mvgH7oby9_4Uqs951VXELTV0",
+    "committed_at": "2026-10-12T08:26:50.270077"
+  },
+  {
+    "id": 5,
+    "rfq_id": 3,
+    "user_id": 1,
+    "member_name": "General Administrator",
+    "role_title": "Member",
+    "token": "WeWIl26ztNT62m0IJptByT87",
+    "committed_at": "2026-10-12T09:08:21.061148"
+  },
+  {
+    "id": 6,
+    "rfq_id": 3,
+    "user_id": 2,
+    "member_name": "Project Manager",
+    "role_title": "Member",
+    "token": "2W6J8hYS5Ns5fAaaBM0FhCqb",
+    "committed_at": "2026-10-12T09:08:21.062757"
+  },
+  {
+    "id": 7,
+    "rfq_id": 5,
+    "user_id": 1,
+    "member_name": "General Administrator",
+    "role_title": "Member",
+    "token": "I54NEsutl3Z-Ma2hyjPK0dJy",
+    "committed_at": "2026-10-12T20:04:43.603744"
+  },
+  {
+    "id": 8,
+    "rfq_id": 5,
+    "user_id": 2,
+    "member_name": "Project Manager",
+    "role_title": "Member",
+    "token": "2weI0Zzc5uiRI6oUMHLNJvQe",
+    "committed_at": "2026-10-12T20:04:43.606079"
+  },
+  {
+    "id": 9,
+    "rfq_id": 6,
+    "user_id": 1,
+    "member_name": "General Administrator",
+    "role_title": "Member",
+    "token": "rWyJSirByvJBGK82o-7QER39",
+    "committed_at": "2026-10-12T20:33:48.509587"
+  },
+  {
+    "id": 10,
+    "rfq_id": 6,
+    "user_id": 2,
+    "member_name": "Project Manager",
+    "role_title": "Member",
+    "token": "O7MNl_HgRH3eaol0ZgCkMrrX",
+    "committed_at": "2026-10-12T20:33:48.511289"
+  }
+]

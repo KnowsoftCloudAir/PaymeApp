@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "code": "1000",
+    "name": "Cash / Bank",
+    "account_type": "asset",
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.669155"
+  },
+  {
+    "id": 2,
+    "code": "1500",
+    "name": "Furniture & Equipment",
+    "account_type": "asset",
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.669160"
+  },
+  {
+    "id": 3,
+    "code": "1510",
+    "name": "IT Equipment",
+    "account_type": "asset",
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.669161"
+  },
+  {
+    "id": 4,
+    "code": "2000",
+    "name": "Accounts Payable",
+    "account_type": "liability",
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.669162"
+  },
+  {
+    "id": 5,
+    "code": "4000",
+    "name": "Programme Income",
+    "account_type": "income",
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.669163"
+  },
+  {
+    "id": 6,
+    "code": "5300",
+    "name": "Training Expense",
+    "account_type": "expense",
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.669164"
+  },
+  {
+    "id": 7,
+    "code": "5500",
+    "name": "Medical & Commodity Supplies",
+    "account_type": "expense",
+    "is_active": true,
+    "created_at": "2026-10-10T14:04:19.669165"
+  }
+]

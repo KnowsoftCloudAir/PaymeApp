@@ -1,0 +1,202 @@
+[
+  {
+    "id": 7,
+    "facility_id": 2,
+    "product_id": 1,
+    "quantity_on_hand": 191,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.741902"
+  },
+  {
+    "id": 8,
+    "facility_id": 2,
+    "product_id": 2,
+    "quantity_on_hand": 76,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.743230"
+  },
+  {
+    "id": 9,
+    "facility_id": 2,
+    "product_id": 3,
+    "quantity_on_hand": 135,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.744702"
+  },
+  {
+    "id": 10,
+    "facility_id": 2,
+    "product_id": 4,
+    "quantity_on_hand": 88,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.746212"
+  },
+  {
+    "id": 11,
+    "facility_id": 2,
+    "product_id": 5,
+    "quantity_on_hand": 497,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.747634"
+  },
+  {
+    "id": 12,
+    "facility_id": 2,
+    "product_id": 6,
+    "quantity_on_hand": 185,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.748954"
+  },
+  {
+    "id": 13,
+    "facility_id": 3,
+    "product_id": 1,
+    "quantity_on_hand": 46,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.750380"
+  },
+  {
+    "id": 14,
+    "facility_id": 3,
+    "product_id": 2,
+    "quantity_on_hand": 179,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.752166"
+  },
+  {
+    "id": 15,
+    "facility_id": 3,
+    "product_id": 3,
+    "quantity_on_hand": 37,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.753495"
+  },
+  {
+    "id": 16,
+    "facility_id": 3,
+    "product_id": 4,
+    "quantity_on_hand": 98,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.754959"
+  },
+  {
+    "id": 17,
+    "facility_id": 3,
+    "product_id": 5,
+    "quantity_on_hand": 692,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.756286"
+  },
+  {
+    "id": 18,
+    "facility_id": 3,
+    "product_id": 6,
+    "quantity_on_hand": 49,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.757748"
+  },
+  {
+    "id": 19,
+    "facility_id": 4,
+    "product_id": 1,
+    "quantity_on_hand": 39,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.759202"
+  },
+  {
+    "id": 20,
+    "facility_id": 4,
+    "product_id": 2,
+    "quantity_on_hand": 174,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.760586"
+  },
+  {
+    "id": 21,
+    "facility_id": 4,
+    "product_id": 3,
+    "quantity_on_hand": 100,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.761982"
+  },
+  {
+    "id": 22,
+    "facility_id": 4,
+    "product_id": 4,
+    "quantity_on_hand": 165,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.763858"
+  },
+  {
+    "id": 23,
+    "facility_id": 4,
+    "product_id": 5,
+    "quantity_on_hand": 695,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.765476"
+  },
+  {
+    "id": 24,
+    "facility_id": 4,
+    "product_id": 6,
+    "quantity_on_hand": 110,
+    "reorder_level": 15,
+    "last_updated": "2026-10-10T14:04:19.767040"
+  },
+  {
+    "id": 25,
+    "facility_id": 1,
+    "product_id": 7,
+    "quantity_on_hand": 100,
+    "reorder_level": 10,
+    "last_updated": "2026-10-12T20:39:42.247039"
+  },
+  {
+    "id": 4,
+    "facility_id": 1,
+    "product_id": 4,
+    "quantity_on_hand": 236,
+    "reorder_level": 15,
+    "last_updated": "2026-10-12T20:39:42.248988"
+  },
+  {
+    "id": 1,
+    "facility_id": 1,
+    "product_id": 1,
+    "quantity_on_hand": 184,
+    "reorder_level": 15,
+    "last_updated": "2026-10-12T20:39:42.250650"
+  },
+  {
+    "id": 6,
+    "facility_id": 1,
+    "product_id": 6,
+    "quantity_on_hand": 129,
+    "reorder_level": 15,
+    "last_updated": "2026-10-12T20:39:42.252416"
+  },
+  {
+    "id": 3,
+    "facility_id": 1,
+    "product_id": 3,
+    "quantity_on_hand": 250,
+    "reorder_level": 15,
+    "last_updated": "2026-10-12T20:39:42.255640"
+  },
+  {
+    "id": 2,
+    "facility_id": 1,
+    "product_id": 2,
+    "quantity_on_hand": 244,
+    "reorder_level": 15,
+    "last_updated": "2026-10-12T20:39:42.257325"
+  },
+  {
+    "id": 5,
+    "facility_id": 1,
+    "product_id": 5,
+    "quantity_on_hand": 444,
+    "reorder_level": 15,
+    "last_updated": "2026-10-12T20:39:42.258963"
+  }
+]

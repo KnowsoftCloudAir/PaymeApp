@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "committee_id": 1,
+    "member_name": "Dr. Ada Okoro",
+    "role_title": "Chair",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "committee_id": 1,
+    "member_name": "Engr. Bello Yusuf",
+    "role_title": "Member",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "committee_id": 1,
+    "member_name": "Pharm. Chidi Eze",
+    "role_title": "Secretary",
+    "is_active": true
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "email": "knowsoftconsult@gmail.com",
+    "purpose": "register_confirm",
+    "code_hash": "2f03293e5022e3eee181fc8da268a42e592675fd8d83123e5a4fe9af0210f327",
+    "pending_user_id": 9,
+    "expires_at": "2026-10-12T14:33:36.418877",
+    "used": false,
+    "created_at": "2026-10-10T14:33:36.419593"
+  },
+  {
+    "id": 2,
+    "email": "esemsun@yahoo.com",
+    "purpose": "register_confirm",
+    "code_hash": "5237db3682ab98cd9054d3353e51934796addde0d72106b3704af2cac8a1883b",
+    "pending_user_id": 10,
+    "expires_at": "2026-10-12T14:34:27.055008",
+    "used": false,
+    "created_at": "2026-10-10T14:34:27.055267"
+  },
+  {
+    "id": 3,
+    "email": "esemsun1@gmail.com",
+    "purpose": "register_confirm",
+    "code_hash": "6c67f25541c1a0f3fe969a3568559e3286a9ddee52c85e41bc68ae2ac1f3e7c7",
+    "pending_user_id": 11,
+    "expires_at": "2026-10-12T14:34:52.146620",
+    "used": false,
+    "created_at": "2026-10-10T14:34:52.146886"
+  },
+  {
+    "id": 4,
+    "email": "esemsun1@yahoo.com",
+    "purpose": "register_confirm",
+    "code_hash": "8c59690117a2ab3c9d2d696490aa9059728ff537a8335e2e10eccc1d195c9ae7",
+    "pending_user_id": 12,
+    "expires_at": "2026-10-12T15:45:17.589715",
+    "used": false,
+    "created_at": "2026-10-10T15:45:17.590662"
+  }
+]
